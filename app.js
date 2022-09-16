@@ -17,13 +17,13 @@ function addNewTodo() {
         console.log('proceed')
 
         // add newTodo
-        // const newTodos = document.createElement('li')
-        // newTodos.innerHTML = input.value
-        // todos.appendChild(newTodos)
+        const newTodos = document.createElement('li')
+        newTodos.innerHTML = input.value
+        todos.appendChild(newTodos)
         
 
         // try to use for loops
-        
+
         // const inputs = input.value
         // inputs.forEach(inp => {
         //     todos.innerHTML += `
@@ -36,6 +36,10 @@ function addNewTodo() {
         
 
         // pending todos
+
+
+
+        // delete todos
 
 
         // myForm.reset()
